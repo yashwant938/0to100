@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage showcasing HTML elements">
+    <meta name="keywords" content="HTML, Example, Tags, Webpage">
+    <meta name="author" content="Yash">
+    <title>Yash's Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin: 20px 0;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Yash's Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is Yash, a passionate web developer exploring various technologies.</p>
+            <blockquote>
+                "Code is like humor. When you have to explain it, it’s bad."
+            </blockquote>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Machine Learning</li>
+                <li>Android Development</li>
+                <li>LLMs</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li>Bachelor's Degree from Ahmedabad</li>
+                <li>Master's Degree from IIIT Delhi</li>
+            </ol>
+        </section>
+
+        <section id="table">
+            <h2>Project Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Technology</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web App</td>
+                        <td>A simple web application</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Machine Learning Model</td>
+                        <td>A model to predict trends</td>
+                        <td>Python, TensorFlow</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <figure>
+                <img src="https://via.placeholder.com/400" alt="Sample Image" width="400">
+                <figcaption>A sample image from the gallery.</figcaption>
+            </figure>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yash's Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
